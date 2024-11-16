@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>Menim Profilim</h1>
+    <ul>
+      <li><a href="#about-section">About</a></li>
+      <li><a href="#services-section">Services</a></li>
+      <li><a href="#blogs-section">Blogs</a></li>
+      <li><a href="#contact-form">Contact</a></li>
+    </ul>
+
+    <h4 id="about-section">About</h4>
+    <div class="p">
+      <p>
+        I am a passionate web developer with a strong foundation in HTML, CSS,
+        JavaScript, and backend technologies. I love creating dynamic and
+        interactive <span>web applications</span> that solve real-world problems. With years
+        of experience in building websites and web applications, I strive to
+        improve user experience and make every web solution seamless and user-friendly.
+      </p>
+      <p>
+        Over the years, I have worked with multiple programming languages such
+        as Python and PHP, using them <span>to develop server-side</span> functionality and
+        interact with databases. I have also gained valuable knowledge in
+        modern front-end frameworks such as React.js, which enables me to build
+        responsive, fast, and scalable web apps. My goal is to create
+        performance-optimized web applications that deliver great results and
+        meet the needs of users across all devices.
+      </p>
+      <p>
+        Outside of my professional work, I enjoy learning about new technologies
+        and continuously improving my skills through courses and personal projects.
+        I am constantly exploring the latest <span>web development trends</span> and keeping up
+        with best practices in the industry. Whether it's building a portfolio website
+        or contributing to open-source projects, I am always eager to work on new
+        challenges and contribute to the tech community.
+      </p>
+    </div>
+
+    <h4 id="services-section">Services</h4>
+    <table>
+      <tr>
+        <th>Image</th>
+        <th>Name</th>
+        <th>What to do?</th>
+      </tr>
+      <tr>
+        <td><img src="./images/html.png" alt="HTML" /></td>
+        <td>HTML</td>
+        <td>
+          Learn the structure of web pages and how to build them from scratch.
+          HTML is the backbone of all web pages.
+        </td>
+      </tr>
+      <tr>
+        <td><img src="./images/css.png" alt="CSS" /></td>
+        <td>CSS</td>
+        <td>
+          Style web pages for a better visual appearance. CSS enables the
+          customization of layouts, colors, and fonts.
+        </td>
+      </tr>
+      <tr>
+        <td><img src="./images/js.png" alt="JavaScript" /></td>
+        <td>JavaScript</td>
+        <td>
+          Add interactivity and dynamic content to web pages. JavaScript enables
+          functionalities like forms, animations, and events.
+        </td>
+      </tr>
+      <tr>
+        <td><img src="./images/gh.png" alt="PHP" /></td>
+        <td>Git</td>
+        <td>
+          Learn server-side scripting with PHP, enabling you to create dynamic
+          web applications and interact with databases.
+        </td>
+      </tr>
+      <tr>
+        <td><img src="images/postman.png" alt="Python" /></td>
+        <td>Postman</td>
+        <td>
+          Learn Python for backend development, data analysis, and automation.
+          Python is widely used in web development frameworks like Django and
+          Flask.
+        </td>
+      </tr>
+    </table>
+
+    <h4 id="blogs-section">Blog</h4>
+    <table>
+      <tr>
+        <th>Image</th>
+        <th>Blog Title</th>
+        <th>Summary</th>
+      </tr>
+      <tr>
+        <td class="tdBg"><h6>Hi Im blog</h6></td>
+        <td>Exploring the basics of web development</td>
+        <td>
+          This blog post introduces the core concepts of web development, from
+          HTML to JavaScript. It's perfect for beginners looking to start a
+          career in web development.
+        </td>
+      </tr>
+      <tr>
+        <td class="tdBg"><h6>Hi Im blog</h6></td>
+        <td>Mastering CSS for responsive design</td>
+        <td>
+          Learn how to create responsive web designs that work well on any
+          device. This post dives into media queries and mobile-first
+          strategies.
+        </td>
+      </tr>
+      <tr>
+        <td class="tdBg"><h6>Hi Im blog</h6></td>
+        <td>Advanced JavaScript concepts for developers</td>
+        <td>
+          This blog post covers advanced JavaScript concepts such as closures,
+          promises, and asynchronous programming to level up your coding skills.
+        </td>
+      </tr>
+      <tr>
+        <td class="tdBg"><h6>Hi Im blog</h6></td>
+        <td>Understanding Python for web development</td>
+        <td>
+          Get to know Python and its use in backend development. Explore how
+          Python frameworks like Flask and Django help build modern web apps.
+        </td>
+      </tr>
+      <tr>
+        <td class="tdBg"><h6>Hi Im blog</h6></td>
+        <td>Why Node.js is a game-changer for web developers</td>
+        <td>
+          Explore the advantages of using Node.js for building fast, scalable
+          web applications, and how it is revolutionizing backend development.
+        </td>
+      </tr>
+    </table>
+
+    <!-- Contact Form -->
+    <h4 id="contact-form">Contact</h4>
+    <form action="#" method="post">
+      <label for="name">Full Name:</label>
+      <input type="text" id="name" name="name" required />
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required />
+
+      <label for="phone">Phone Number:</label>
+      <input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required />
+
+      <label for="address">Address:</label>
+      <input type="text" id="address" name="address" required />
+
+      <label for="subject">Subject:</label>
+      <select id="subject" name="subject">
+        <option value="general">General Inquiry</option>
+        <option value="support">Support</option>
+        <option value="feedback">Feedback</option>
+        <option value="other">Other</option>
+      </select>
+
+      <label for="message">Message:</label>
+      <textarea id="message" name="message" rows="4" required></textarea>
+
+      <p><button type="submit">Submit</button></p>
+    </form>
+    <p class="footer">&copy; Copyright 2024</p>
+  </body>
+</html>
